@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		777756BA1DD9899300C8EB88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 777756B91DD9899300C8EB88 /* main.m */; };
+		777756C21DD989FF00C8EB88 /* PriceMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 777756C11DD989FF00C8EB88 /* PriceMaster.m */; };
+		77B007E51DDEE272008B8BFA /* BillMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B007E41DDEE272008B8BFA /* BillMaster.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		777756B41DD9899300C8EB88 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		777756B61DD9899300C8EB88 /* RWRestaurantapp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RWRestaurantapp; sourceTree = BUILT_PRODUCTS_DIR; };
+		777756B91DD9899300C8EB88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		777756C01DD989FF00C8EB88 /* PriceMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceMaster.h; sourceTree = "<group>"; };
+		777756C11DD989FF00C8EB88 /* PriceMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceMaster.m; sourceTree = "<group>"; };
+		77B007E31DDEE272008B8BFA /* BillMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillMaster.h; sourceTree = "<group>"; };
+		77B007E41DDEE272008B8BFA /* BillMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillMaster.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		777756B31DD9899300C8EB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		777756AD1DD9899200C8EB88 = {
+			isa = PBXGroup;
+			children = (
+				777756B81DD9899300C8EB88 /* RWRestaurantapp */,
+				777756B71DD9899300C8EB88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		777756B71DD9899300C8EB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				777756B61DD9899300C8EB88 /* RWRestaurantapp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		777756B81DD9899300C8EB88 /* RWRestaurantapp */ = {
+			isa = PBXGroup;
+			children = (
+				777756B91DD9899300C8EB88 /* main.m */,
+				777756C01DD989FF00C8EB88 /* PriceMaster.h */,
+				77B007E31DDEE272008B8BFA /* BillMaster.h */,
+				77B007E41DDEE272008B8BFA /* BillMaster.m */,
+				777756C11DD989FF00C8EB88 /* PriceMaster.m */,
+			);
+			path = RWRestaurantapp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		777756B51DD9899300C8EB88 /* RWRestaurantapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777756BD1DD9899300C8EB88 /* Build configuration list for PBXNativeTarget "RWRestaurantapp" */;
+			buildPhases = (
+				777756B21DD9899300C8EB88 /* Sources */,
+				777756B31DD9899300C8EB88 /* Frameworks */,
+				777756B41DD9899300C8EB88 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWRestaurantapp;
+			productName = RWRestaurantapp;
+			productReference = 777756B61DD9899300C8EB88 /* RWRestaurantapp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		777756AE1DD9899200C8EB88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rupali;
+				TargetAttributes = {
+					777756B51DD9899300C8EB88 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 777756B11DD9899200C8EB88 /* Build configuration list for PBXProject "RWRestaurantapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 777756AD1DD9899200C8EB88;
+			productRefGroup = 777756B71DD9899300C8EB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				777756B51DD9899300C8EB88 /* RWRestaurantapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		777756B21DD9899300C8EB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777756BA1DD9899300C8EB88 /* main.m in Sources */,
+				777756C21DD989FF00C8EB88 /* PriceMaster.m in Sources */,
+				77B007E51DDEE272008B8BFA /* BillMaster.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		777756BB1DD9899300C8EB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		777756BC1DD9899300C8EB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		777756BE1DD9899300C8EB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		777756BF1DD9899300C8EB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		777756B11DD9899200C8EB88 /* Build configuration list for PBXProject "RWRestaurantapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777756BB1DD9899300C8EB88 /* Debug */,
+				777756BC1DD9899300C8EB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777756BD1DD9899300C8EB88 /* Build configuration list for PBXNativeTarget "RWRestaurantapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777756BE1DD9899300C8EB88 /* Debug */,
+				777756BF1DD9899300C8EB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 777756AE1DD9899200C8EB88 /* Project object */;
+}
